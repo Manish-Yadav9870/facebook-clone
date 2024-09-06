@@ -1,0 +1,24 @@
+.Nav_Second_Cont{
+    width: 35%;
+    display: grid;
+    place-items: center;
+}
+
+.Nav_Icon_cont {
+    // border:  1px solid black;
+    width: 100%;
+    // height: 5vh;
+}
+
+.Nav_Icon_cont ul{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    // width: 90%;
+    list-style: none;
+    margin: auto;
+}
+.icon_ul li{
+    font-size:25px;
+    color: rgb(101,103,107);
+}

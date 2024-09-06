@@ -1,0 +1,66 @@
+.Nav_First_Cont{
+    // border: 1px solid black;
+}
+.Nav_Search_Logo_cont{
+    //  border:  1px solid blue; 
+    display: flex;
+    justify-content: space-between;
+// padding: 10px;
+margin: auto;
+width: 95%;
+}
+.Nav_Facebook_Logo_Cont{
+    //  border:  1px solid green; 
+    display: grid;
+    place-items: center;
+    padding: 5px;
+}
+.FaFacebook{
+    //  border:  1px solid rgb(10, 95, 241);  
+    font-size: 30px;
+    color: rgb(10,102,255);
+}
+.Search_container{
+    //  border:  1px solid red; 
+      display: grid;
+    place-items: center;
+     padding: 5px; 
+    width: 80%;
+}
+.Search_container_child{
+    //  border: 2px solid red; 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(229, 233, 238);
+    border-radius: 30px;
+    // padding: 7px;
+}
+.Search_Here_cont{
+    // border:  1px solid black; 
+    width: 80%;
+}
+.IoIosSearch_cont{
+    //  border:  1px solid blue; 
+    display: grid;
+    place-items: center;
+   
+}
+.IoIosSearch{
+    //  border:  3px solid blue; 
+    font-size: 30px;
+    padding-left: 5px;
+}
+.input{
+    // border:  1px solid green;
+    width: 90%;
+    padding: 7px;
+    font-size: larger;
+    border: none;
+    background: transparent;
+
+}
+.input:focus {
+    outline: none;
+    border-color: #ccc;
+    border: none;
+}

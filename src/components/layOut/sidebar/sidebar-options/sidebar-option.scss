@@ -1,0 +1,67 @@
+.SideBar_Super_Cont{
+    padding: 7px;
+}
+
+.profile_Message_Icon_Cont_{
+    // border:  1px solid green;
+    width: 30px;
+    padding: 7px;
+    border-radius: 50px;
+    overflow: hidden;
+    // height: 8vh;
+    text-align: center;
+
+}
+.profile_Message_Icon_Cont_ span img{
+    width: 30px;
+    border-radius: 50px;
+    }
+    .Main_Profile_Cont{
+        // border:  1px solid rgb(13, 0, 255);
+        display: flex;
+
+    }
+    .Main_Profile_Cont:hover{
+        cursor: pointer;
+        background-color: rgb(229, 233, 238);
+        border-radius: 10px;
+    }
+    .SideBar_Profile_Name_Cont{
+        // border:  1px solid rgb(47, 255, 0);
+        display: grid;
+        place-items: center;
+        margin-bottom: 7px;
+        color: rgb(65, 65, 67);
+    }
+    .SideBar_Map_Cont{
+        //  border:  1px solid red;
+         display: flex;
+    }
+    .SideBar_Map_Cont:hover{
+        cursor: pointer;
+        background-color: rgb(229, 233, 238);
+        border-radius: 10px;
+    }
+    .SideBar_Icon_Cont{
+        // border:  1px solid red;
+        padding: 5px;
+        font-size: xx-large;
+        
+    }
+    .SideBar_Label_Cont{
+        // border:  1px solid red;
+        display: grid;
+        place-items: center;
+        margin-bottom: 7px;
+        font-weight: 500;
+        color: rgb(56, 56, 58);
+    }
+    .FaUserFriends{
+        background-image: linear-gradient(rgb(34,166,252),rgb(131,224,212));
+        border-radius: 50px;
+    }
+    .TfiArrowCircleDown{
+        background-color: rgb(174, 177, 179);
+        border-radius: 50px;
+        border: none;
+    }
