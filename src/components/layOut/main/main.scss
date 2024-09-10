@@ -1,0 +1,14 @@
+.main{
+    //  border: 3px solid rgb(255, 94, 0);
+    display: flex;
+    
+    background-color: rgb(240,242,245);
+}
+ .main_first_container{
+    // border: 1px solid red;
+    width: 65%;
+    padding: 0 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}

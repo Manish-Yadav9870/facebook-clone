@@ -7,7 +7,7 @@ import { BsShop } from "react-icons/bs";
 import { VscFeedback } from "react-icons/vsc";
 import { MdEventBusy } from "react-icons/md";
 import { GiNetworkBars } from "react-icons/gi";
-import { TfiArrowCircleDown } from "react-icons/tfi";
+import { FaChevronDown } from "react-icons/fa";
 import './sidebar-option.scss'
 const sideBarOptions={
     Header:"option",
@@ -16,59 +16,59 @@ const sideBarOptions={
     {
         id:"1",
         label:"Friends",
-        icon:<FaUserFriends className="FaUserFriends" />,
+        icon:<FaUserFriends style={{color:"rgb(131,224,212)"}} className="FaUserFriends" />,
     },
    
     {
         id:"2",
         label:"Memories",
-        icon:<TbClockShare className="TbClockShare" />
+        icon:<TbClockShare style={{color:"rgb(28,123,221)"}} className="TbClockShare" />
     },
     {
         id:"3",
         label:"Saved",
-        icon:<CiSaveDown2 className="CiSaveDown2" />
+        icon:<CiSaveDown2 style={{color:"white"}} className="CiSaveDown2" />
     },
     {
         id:"4",
         label:"Groups",
         name:"manish_yadav",
-        icon:<MdGroups2 className="MdGroups2" />
+        icon:<MdGroups2 style={{color:"white"}} className="MdGroups2" />
     },
     {
         id:"5",
         label:"Video",
-        icon:<MdOutlineOndemandVideo className="MdOutlineOndemandVideo" />           
+        icon:<MdOutlineOndemandVideo style={{color:"rgb(37,148,226)"}} className="MdOutlineOndemandVideo" />           
     },
     {
         id:"6",
         label:"Marketplace",
         name:"manish_yadav",
-        icon:<BsShop className="BsShop" />
+        icon:<BsShop style={{color:"rgb(23,109,213)"}} className="BsShop" />
     },
     {
         id:"7",
         label:"Feeds",
         name:"manish_yadav",
-        icon:<VscFeedback className="VscFeedback" />
+        icon:<VscFeedback style={{color:"rgb(131,224,212)"}} className="VscFeedback" />
     },
     {
         id:"8",
         label:"Events",
         name:"manish_yadav",
-        icon:<MdEventBusy className="MdEventBusy" />
+        icon:<MdEventBusy style={{color:"rgb(23,109,213)"}} className="MdEventBusy" />
     },
     {
         id:"9",
         label:"Ads Manager",
         name:"manish_yadav",
-        icon:<GiNetworkBars className="GiNetworkBars" />
+        icon:<GiNetworkBars style={{color:"rgb(7, 154, 252)"}} className="GiNetworkBars" />
     },
     {
         id:"10",
         label:"See more",
         name:"manish_yadav",
-        icon:<TfiArrowCircleDown className="TfiArrowCircleDown"/>
+        icon:<FaChevronDown style={{border:"none"}}className="FaChevronDown"/>
     },
    
    

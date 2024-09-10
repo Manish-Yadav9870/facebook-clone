@@ -5,11 +5,11 @@
   width: 98%;
   margin: auto;
   display: grid;
-  grid-template-columns: 300px auto auto;
+  grid-template-columns: 420px auto auto;
   grid-template-rows: 50px auto 50px;
   grid-template-areas:  "nav nav nav"
-"aside main main"
-"footer footer  footer";
+"aside main main";
+
 .nav{
   // border: 1px solid black;
   // margin: auto;
@@ -19,12 +19,15 @@
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   }
   .aside{
-    border: 1px solid black;
+    // border: 1px solid black;
     grid-area:aside ;
     }
     .main{
       // border: 3px solid rgb(255, 94, 0);
       grid-area:main;
+      overflow: auto;
+    
+      
       }
       footer{
         border: 1px solid black;

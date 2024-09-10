@@ -5,7 +5,7 @@
 .profile_Message_Icon_Cont_{
     // border:  1px solid green;
     width: 30px;
-    padding: 7px;
+    padding: 8px;
     border-radius: 50px;
     overflow: hidden;
     // height: 8vh;
@@ -19,6 +19,7 @@
     .Main_Profile_Cont{
         // border:  1px solid rgb(13, 0, 255);
         display: flex;
+        width: 54%;
 
     }
     .Main_Profile_Cont:hover{
@@ -36,6 +37,9 @@
     .SideBar_Map_Cont{
         //  border:  1px solid red;
          display: flex;
+         gap: 18px;
+         padding: 10px;
+         width: 50%;
     }
     .SideBar_Map_Cont:hover{
         cursor: pointer;
@@ -44,8 +48,8 @@
     }
     .SideBar_Icon_Cont{
         // border:  1px solid red;
-        padding: 5px;
-        font-size: xx-large;
+        margin-left: 5px;
+        font-size: x-large;
         
     }
     .SideBar_Label_Cont{
@@ -57,11 +61,20 @@
         color: rgb(56, 56, 58);
     }
     .FaUserFriends{
-        background-image: linear-gradient(rgb(34,166,252),rgb(131,224,212));
+        // background-image: linear-gradient(rgb(34,166,252),rgb(131,224,212));
         border-radius: 50px;
     }
-    .TfiArrowCircleDown{
-        background-color: rgb(174, 177, 179);
+    .FaChevronDown{
+        background-color: rgb(228,230,235);
         border-radius: 50px;
         border: none;
+        font-size: large;
     }
+    .MdGroups2{
+        background-image: linear-gradient(rgb(7, 154, 252),rgb(131,224,212));
+        border-radius: 50px;
+    }
+    .CiSaveDown2{
+        background-image: linear-gradient(rgb(213,54,170),rgb(147,96,246));
+    }
+   
