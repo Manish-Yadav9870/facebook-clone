@@ -7,68 +7,68 @@ const contact = [
   {
     id: "ashok",
     status:"online",
-    name: "Ashok Kumar",
+    name: "Sohan Lal Jat",
     image: "https://sharedp.com/wp-content/uploads/2024/05/whatsapp-dp-for-boys-love-1024x1024.jpg",
   },
   {
     id: "kamlesh",
-    name: "Kamlesh Kumar",
-    image: "https://pics.craiyon.com/2023-11-26/oMNPpACzTtO5OVERUZwh3Q.webp",
+    name: "Manish Yadav",
+    image: "https://scontent.fjai1-2.fna.fbcdn.net/v/t39.30808-1/450611951_2171870229856890_3184289842668234936_n.jpg?stp=dst-jpg_s480x480&_nc_cat=104&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=xGHdB7jQtugQ7kNvgFGtq9c&_nc_ht=scontent.fjai1-2.fna&oh=00_AYA7wTZ_AfJpG3JB50GSpGOwrHst4NDX6HFivDZz3Tkvcg&oe=66DF4C99",
     status: "online",
     
   },
   {
     id: "akhilesh",
-    name: "Akhilesh Kumar",
+    name: "Akshya Kumar",
     status: "offline",
-    image: "https://e1.pxfuel.com/desktop-wallpaper/938/413/desktop-wallpaper-50-romantic-love-couple-with-quotes-for-whatsapp-dp-profile-pic-stylish-couple.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Akshay_Kumar.jpg",
   },
   {
     id: "vikram",
-    name: "Vikram Singh",
+    name: "Salman Khan",
     status: "offline",
-    image: "https://cdn4.sharechat.com/img_851848_365362ae_1682882849265_sc.jpg?tenant=sc&referrer=pwa-sharechat-service&f=265_sc.jpg"
+    image: "https://images.filmibeat.com/img/popcorn/profile_photos/salman-khan-20221126110012-15.jpg"
   },
   {
     id: "manoj",
-    name: "Manoj Kumar",
+    name: "Sahrrukh Khan",
     status: "online",
-    image: "https://media-bom1-2.cdn.whatsapp.net/v/t61.24694-24/414725898_450724871107729_7800877498851362272_n.jpg?ccb=11-4&oh=01_Q5AaIEMAKxFCaIBlujOMti9L6V3Yqg4qXuHxP7oelEGcHlVw&oe=66E423E9&_nc_sid=5e03e0&_nc_cat=105",
+    image: "https://m.media-amazon.com/images/M/MV5BZDk1ZmU0NGYtMzQ2Yi00N2NjLTkyNWEtZWE2NTU4NTJiZGUzXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_FMjpg_UX1000_.jpg",
   },
   {
     id: "Mahesh",
-    name: "Mahesh Kumar",
+    name: "Kaitrina Kaif",
     status: "online",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iFts_aPEkkYJE5JKYMqQAQTrfSVzT28rSg&s",
+    image: "https://variety.com/wp-content/uploads/2024/04/Katrina-Kaif.jpg?w=1000&h=667&crop=1",
   },
   {
     id: "sitaram",
-    name: "Sitaram",
+    name: "Deepika Padukon",
     status: "offline",
-    image: "https://cdn4.sharechat.com/img_851848_365362ae_1682882849265_sc.jpg?tenant=sc&referrer=pwa-sharechat-service&f=265_sc.jpg",
+    image: "https://images.news18.com/ibnlive/uploads/2021/01/1610175910_deepika-padukone-10.jpg",
   },
   {
     id: "rahul",
-    name: "Rahul Kumar",
+    name: "Sunny Leony",
     status: "offline",
-    image: "https://cdn4.sharechat.com/compressed_gm_40_img_808541_2a5de6d_1703412806820_sc.jpg?tenant=sc&referrer=pwa-sharechat-service&f=820_sc.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sunny_Leone_promotes_Raees-2.jpg/220px-Sunny_Leone_promotes_Raees-2.jpg",
   },
   {
     id: "suresh",
-    name: "Suresh Kumar",
+    name: "Shurti Hasan",
     status: "online",
-    image: "https://sharedp.com/wp-content/uploads/2024/05/whatsapp-dp-for-boys-love-1024x1024.jpg",
+    image: "https://assets.thehansindia.com/h-upload/2023/01/19/1330618-shruti-haasan-biography-wiki-age.webp",
   },
   {
     id: "manish",
-    name: "Manish Kumar",
+    name: "Madhuri Dixit",
     status: "offline",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iFts_aPEkkYJE5JKYMqQAQTrfSVzT28rSg&s",
+    image: "https://static.toiimg.com/thumb/imgsize-23456,msid-112050888,width-600,resizemode-4/112050888.jpg",
   },
   {
     id: "ayush",
     status:"online",
-    name: "Aayush Kumar",
+    name: "Kalu Ram",
     image: "https://sharedp.com/wp-content/uploads/2024/05/whatsapp-dp-for-boys-love-1024x1024.jpg",
   },
   {
@@ -136,7 +136,7 @@ const MainContact = () => {
             alt="jj"
           />
           <p>
-            <b>Kamlesh Kumar</b> and <b>Harendra Singh</b> have birthdays today.
+            <b>Sohan Lal Jat</b> and <b>Sonakshi Sinha</b> have birthdays today.
           </p>
         </div>
       </div>

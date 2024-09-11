@@ -15,21 +15,21 @@ const mainContain=[
         icon:<FaUserFriends />,
         postType:"image",
         line:"लड़खड़ा रहे हैं  संभल रहे हैं तजुर्बे हैं..................हो रहे हैं।",
-        post:"https://media-bom1-2.cdn.whatsapp.net/v/t61.24694-24/459011293_870001228046178_270215879979982060_n.jpg?ccb=11-4&oh=01_Q5AaIObxI0bk369qokp_BfZXUvGzGs2ovohnbyndhFfV-ALx&oe=66ED2CDE&_nc_sid=5e03e0&_nc_cat=103",
+        post:"https://media-bom1-1.cdn.whatsapp.net/v/t61.24694-24/457607511_866587335060949_8520821537917897958_n.jpg?ccb=11-4&oh=01_Q5AaIEv4C4a_MwS7YmWnLbHb1iMafjFjHQWmYyM63WVnjpg1&oe=66ED49F7&_nc_sid=5e03e0&_nc_cat=101",
         like:<AiOutlineLike />,
         comment:<FaRegComment />,
         sent:<FaWhatsapp />,
         share:<RiShareForwardLine />
     },
     {
-        username:"Kamlesh Kumar",
-        userpic:"https://pics.craiyon.com/2023-11-26/oMNPpACzTtO5OVERUZwh3Q.webp",
+        username:"Manvay Singh Yadav",
+        userpic:"https://www.bhajansangrah.in/apps/krishna/uploads/wallpapers/1683091059_Khatu-sssshyam-Wallpaper.jpg",
         more:<FiMoreHorizontal />,
         time:"1 hrs",
         icon:<FaUserFriends />,
         postType:"video",
-        line:"Beautiful Nature",
-        post:"https://assets.mixkit.co/videos/2213/2213-720.mp4",
+        line:"At Khatu Shyam Ji",
+        post:"https://www.bhajansangrah.in/apps/krishna/uploads/videos/1672905111_Ks_Reel_(1).mp4",
         like:<AiOutlineLike />,
         comment:<FaRegComment />,
         sent:<FaWhatsapp />,
@@ -171,7 +171,7 @@ return(
             </div></div>
             <div className="post-img">
                 <span>{el.line}</span> <br/>
-                <video width="653" height="" controls autoPlay muted loop>
+                <video width="746" height="" controls autoPlay muted loop>
             <source src={el.post} type="video/mp4" />
             Your browser does not support HTML video.
           </video>
