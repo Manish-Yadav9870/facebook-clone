@@ -7,6 +7,8 @@
 .Nav_Icon_cont {
     // border:  1px solid black;
     width: 100%;
+    margin-right: 300px;
+    padding: 5px;
     // height: 5vh;
 }
 
@@ -14,9 +16,14 @@
     // border: 1px solid red;
     display: flex;
     justify-content: space-between;
-    // width: 90%;
+    // width: 95%;
     list-style: none;
     margin: auto;
+}
+.Nav_Icon_cont ul li:hover{
+    border-bottom: 2px solid rgb(10,102,255);
+    color:rgb(10,102,255);
+    cursor: pointer;
 }
 .icon_ul li{
     font-size:25px;

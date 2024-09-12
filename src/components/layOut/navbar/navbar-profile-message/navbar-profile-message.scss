@@ -8,29 +8,27 @@
     // border: 1px solid black;
     display: flex;
     justify-content:end;
-    // gap: 10px;
+    gap: 20px;
     // width: 40%;
-    margin: auto;
+    // margin: auto;
 }
-.profile_Message_Icon_Cont{
-    // border: 1px solid rgb(230, 31, 31);
-   margin: auto;
-//    padding: 70px;
-   
-}
+ 
 .profile_Message_Icon_Cont_1,.profile_Message_Icon_Cont_2,.profile_Message_Icon_Cont_3{
     // border: 1px solid rgb(230, 31, 31);
-    font-size: x-large;
+    font-size: 24px;
     display: grid;
     place-items: center;
-    padding: 5px;
-    border-radius: 60px;
+    padding: 4px;
+    border-radius: 58%;
     margin: auto;
     background-color: rgb(229, 233, 238);
 }
+.profile_Message_Icon_Cont_1,.profile_Message_Icon_Cont_2,.profile_Message_Icon_Cont_3 ,.profile_Message_Icon_Cont_4:hover{
+    cursor: pointer;
+}
 .profile_Message_Icon_Cont_4{
     // border:  1px solid green;
-    width: 7%;
+    width: 40px;
     padding: 5px;
     border-radius: 50px;
     overflow: hidden;
@@ -39,4 +37,5 @@
 .profile_Message_Icon_Cont_4 span img{
     width: 100%;
     border-radius: 50px;
+    
     }
